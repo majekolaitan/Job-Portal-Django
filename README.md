@@ -1,12 +1,12 @@
-## DJobPortal - Job Posting Platform
+## TechConnect - Job Posting Platform
 
-DJobPortal is a powerful job posting platform developed using Django, a Python web framework. It provides a seamless experience for both employers and job seekers, facilitating the recruitment process effectively.
+TechConnect is a powerful job posting platform developed using Django, a Python web framework. It provides a seamless experience for both employers and job seekers, facilitating the recruitment process effectively.
 
 ### Setup Instructions
 
 #### Using Docker
 
-Follow these steps to set up and run the DJobPortal application using Docker:
+Follow these steps to set up and run the TechConnect application using Docker:
 
 ##### Prerequisites
 
@@ -22,18 +22,18 @@ cd <repository-directory>
 ##### Build the Docker Image
 
 ```bash
-docker build -t djobportal .
+docker build -t techconnect .
 ```
 
 ##### Run the Docker Container
 
 ```bash
-docker run -p 8000:8000 djobportal
+docker run -p 8000:8000 techconnect
 ```
 
 #### Accessing the Application
 
-Once the Docker container is running, you can access the DJobPortal application by visiting [http://localhost:8000](http://localhost:8000) in your web browser.
+Once the Docker container is running, you can access the TechConnect application by visiting [http://localhost:8000](http://localhost:8000) in your web browser.
 
 #### Creating a Superuser (Optional)
 
@@ -91,7 +91,7 @@ Replace `<container-id>` with the ID of your Docker container.
 
 ### Setup Without Docker
 
-If you prefer not to use Docker, follow these steps to set up the DJobPortal application directly:
+If you prefer not to use Docker, follow these steps to set up the TechConnect application directly:
 
 #### Prerequisites
 
@@ -138,7 +138,7 @@ python manage.py runserver
 
 #### Accessing the Application
 
-Once the server is running, you can access the DJobPortal application by visiting [http://localhost:8000](http://localhost:8000) in your web browser.
+Once the server is running, you can access the TechConnect application by visiting [http://localhost:8000](http://localhost:8000) in your web browser.
 
 #### Accessing the Admin Panel
 
